@@ -1,0 +1,20 @@
+теперь выступи с роли программиста на .tex нужно подготовить ключеве слова, кол-во слов для Аннотаций и Abstract
+
+\section*{Аннотация}
+
+
+Исследование посвящено автоматизации проектирования инструментария для предметно-ориентированных языков (Domain-Specific Languages, DSL). Цель работы заключается в создании метода генерации интерпретаторов, минимизирующего ручное написание программного кода для реализации семантики. Автором предложен гибридный подход, объединяющий детерминированный синтаксический анализ с возможностями больших языковых моделей (Large Language Models, LLM) для формирования семантических обработчиков на базе паттерна Visitor. Оригинальность метода состоит в использовании контекстных подсказок внутри грамматических правил для управления синтезом логики обхода деревьев разбора.
+
+
+Результатом исследования стала программная среда DslTools, поддерживающая концепцию единого исполняемого окружения (Unified Executable Parsing Environment, UEPE) с механизмом «горячего» обновления грамматик. Разработанный инструментарий позволяет значительно ускорить прототипирование специализированных языков и снизить требования к квалификации разработчиков в области теории компиляторов. Интеграция LLM в процесс генерации кода признана эффективным средством автоматизации рутинных операций при сохранении строгого контроля над структурой данных.
+
+
+\section*{Abstract}
+
+
+This research focuses on automating the development of tooling for Domain-Specific Languages (DSLs). The study aims to develop a method for generating interpreters that minimizes manual coding for implementing language semantics. The author proposes a hybrid approach, integrating deterministic syntactic analysis with the capabilities of Large Language Models (LLMs) to create semantic handlers based on the Visitor pattern. The method’s novelty lies in utilizing contextual prompts embedded within grammar rules to direct the synthesis of parse tree traversal logic.
+
+
+The study resulted in the DslTools software environment, which supports the Unified Executable Parsing Environment (UEPE) concept and features a "hot reload" mechanism for grammars. The developed toolkit significantly accelerates the prototyping of specialized languages and reduces the expertise required in compiler theory. The integration of LLMs into the code generation process is demonstrated to be an effective means of automating routine operations while maintaining strict control over data structures
+
+Ключевые слова нужно сформировать в виде аббривеатур и они должны иднти капсом. Кроме того нужно чтобы они были максимум в 2 слова

@@ -1,0 +1,63 @@
+РОЛЬ: Эксперт-исследователь в области Computer Science, теории языков программирования и компиляторов.
+
+КОНТЕКСТ:
+Я работаю над научным проектом "DslTools". Это инструментальная среда для автоматизированной генерации предметно-ориентированных языков (DSL) с использованием графовых моделей грамматик и интеграции больших языковых моделей (LLM).
+
+Ключевые особенности проекта:
+1. Единая исполняемая среда парсинга (Unified Executable Parsing Environment — UEPE).
+2. Цикл разработки "edit-run" с возможностью "горячей" загрузки грамматик.
+3. Автоматизация семантических обработчиков на базе паттерна Visitor: генерация логики происходит с помощью LLM на основе аннотаций (подсказок), встроенных прямо в правила грамматики.
+4. Конкурентное преимущество: более низкий порог вхождения по сравнению с JetBrains MPS или Xtext.
+
+ЗАДАЧА:
+На основе приведенного ниже введения и параметров поиска найди научные статьи (IEEE, ACM, arXiv), технические отчеты и документацию. Для каждого набора параметров выдели 2-3 наиболее релевантных источника за последние 3-5 лет.
+
+ВВЕДЕНИЕ ДЛЯ АНАЛИЗА:
+(Вставь сюда текст своего введения: "Современный этап развития информационных технологий характеризуется активным внедрением языковых инструментов... Целью работы является разработка и формализация метода генерации интерпретаторов DSL на основе графовых моделей грамматик и технологий LLM...")
+
+ПАРАМЕТРЫ ПОИСКА:
+
+Сет 1: Автоматизация генерации DSL
+- DSL generation automated synthesis
+- "DSL generation" transformer
+- (ti:"DSL generation" OR abs:"DSL generation") AND framework
+
+Сет 2: Генерация Python-кода через LLM
+- LLM Python codegen benchmark
+- "Python code generation" LLM
+- (ti:"Python code generation" OR abs:"Python code generation") AND transformer
+
+Сет 3: Инженерия грамматик EBNF
+- EBNF grammar inference LLM
+- "EBNF grammar" parser
+- (ti:"EBNF" OR abs:"EBNF") AND learning
+
+Сет 4: Автоматизация паттерна Visitor
+- visitor pattern compiler optimization
+- "visitor pattern" boilerplate
+- (ti:"visitor pattern" OR abs:"visitor pattern") AND automated
+
+Сет 5: Метамоделирование и синтез
+- metamodeling software engineering LLM
+- "metamodeling approach" synthesis
+- (ti:"metamodeling" OR abs:"metamodeling") AND code
+
+Сет 6: Техники трансляции AST
+- AST translation code migration
+- "AST translation" neural
+- (ti:"abstract syntax tree" OR abs:"abstract syntax tree") AND translation
+
+Сет 7: Интеграция в IDE и продуктивность
+- IDE integration developer productivity
+- "IDE integration" tool
+- (ti:"IDE integration" OR abs:"IDE integration") AND LLM
+
+Сет 8: Продвинутый синтез программ
+- program synthesis language tooling
+- "program synthesis" benchmark
+- (ti:"program synthesis" OR abs:"program synthesis") AND LLM
+
+ТРЕБОВАНИЯ К ОТВЕТУ:
+1. Составь библиографический список для каждого сета (Название, Авторы, Год, Ссылка, если доступна).
+2. Кратко (1-2 предложения) поясни, как каждый источник соотносится с целями проекта DslTools.
+3. Отдельно отметь любые упоминания использования LLM для семантического анализа или автоматической генерации кода паттерна Visitor.
